@@ -1,0 +1,79 @@
+baseURL: "https://7kxg0wmj-1313.asse.devtunnels.ms/"
+languageCode: en-us
+title: Hanif Al Fathoni
+theme: PaperMod
+
+enableRobotsTXT: true
+buildDrafts: false
+buildFuture: false
+buildExpired: false
+
+minify:
+  disableXML: true
+  minifyOutput: true
+
+params:
+  title: Hanif Al Fathoni
+  description: "Hanif Al Fathoni Profile Page"
+  author: "Hanif Al Fathoni"
+  DateFormat: "January 2, 2006"
+  defaultTheme: "auto"
+
+  ShowReadingTime: true
+  ShowPostNavLinks: true
+  ShowBreadCrumbs: true
+  ShowCodeCopyButtons: true
+  ShowWordCount: true
+  disableSpecial1stPost: false
+  disableScrollToTop: false
+  comments: false
+  hidemeta: false
+  hideSummary: false
+  showtoc: false
+  tocopen: false
+
+  assets:
+    favicon: "/favicon.ico"
+
+  profileMode:
+    enabled: true
+    title: "Hanif Al Fathoni"
+    subtitle: "Computer Science Student | Web Developer | Backend Developer | Cloud Computing" 
+    imageUrl: "/avatar.jpg"
+    imageTitle: "Profile Image"
+    imageWidth: 120 # custom size
+    imageHeight: 120 # custom size
+    buttons:
+      - name: About Me
+        url: about/
+      - name: Portfolio
+        url: portfolio/
+      - name: Archive
+        url: archives
+
+  homeInfoParams:
+    Title: "Hi, I'm Hanif Al Fathoni \U0001F44B"
+    Content: Welcome to my personal website
+
+  socialIcons:
+    - name: "LinkedIn"
+      url: "https://linkedin.com/in/hanif-al-fathoni"
+    - name: "Github"
+      url: "https://github.com/denshanif"
+
+  cover:
+    hidden: true
+    hiddenInList: true
+    hiddenInSingle: true
+
+menu:
+  main:
+    - name: About Me
+      url: about/
+      weight: 5
+    - name: Portfolio
+      url: portfolio/
+      weight: 5
+    - name: Archive
+      url: archives
+      weight: 10
