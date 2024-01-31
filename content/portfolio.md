@@ -63,6 +63,9 @@ This API feature searching nearby crosswalks based on user's location. This API 
 
 This API is built using the Node.js Express framework and MySQL database. Deployed on Google Cloud Cloud Run Serverless and using Google Cloud SQL for the database.
 
+<!-- Github Repository -->
+[CAVIAR API Github Repository](https://github.com/caviar-bangkit/caviar-api)
+
 <!-- Tech Stack -->
 **Tech Stack:**
 - Node.js deployed on Google Cloud Cloud Run Serverless
