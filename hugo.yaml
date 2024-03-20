@@ -48,7 +48,7 @@ params:
         url: about/
       - name: Portfolio
         url: portfolio/
-      - name: Archive
+      - name: Blog
         url: archives
 
   homeInfoParams:
@@ -74,6 +74,9 @@ menu:
     - name: Portfolio
       url: portfolio/
       weight: 5
-    - name: Archive
+    - name: Blog
       url: archives
       weight: 10
+    - name: Tags
+      url: tags
+      weight: 15

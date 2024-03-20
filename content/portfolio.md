@@ -73,3 +73,21 @@ This API is built using the Node.js Express framework and MySQL database. Deploy
 - MySQL on Google Cloud SQL
 
 ---
+
+### Medshop (E-Commerce Toko Alat Kesehatan)
+
+<!-- Image -->
+![Medshop](/medshop-1.png)
+![Medshop](/medshop-3.png)
+![Medshop](/medshop-2.png)
+
+<!-- Description -->
+Medshop is an e-commerce website for selling health equipment. This project is built using the Laravel framework and MySQL database. It's include features such as product catalog, shopping cart, checkout, and also admin CMS for managing products, orders, and users.
+
+<!-- Tech Stack -->
+**Tech Stack:**
+- Laravel 10 with Fortify and Laravel UI
+- MySQL
+- Bootstrap 5
+
+---
