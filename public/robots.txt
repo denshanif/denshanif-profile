@@ -1,3 +1,0 @@
-User-agent: *
-Disallow:
-Sitemap: https://denshanif.my.id/sitemap.xml
