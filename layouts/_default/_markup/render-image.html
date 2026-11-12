@@ -1,0 +1,8 @@
+{{- $path := strings.TrimPrefix "/" .Destination -}}
+{{- $file := printf "static/%s" $path -}}
+{{- if and (not (findRE "://" .Destination)) (fileExists $file) -}}
+  {{- $config := imageConfig $file -}}
+  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" width="{{ $config.Width }}" height="{{ $config.Height }}" loading="lazy" decoding="async"{{ with .Title }} title="{{ . }}"{{ end }}>
+{{- else -}}
+  <img src="{{ .Destination | safeURL }}" alt="{{ .Text }}" loading="lazy" decoding="async"{{ with .Title }} title="{{ . }}"{{ end }}>
+{{- end -}}

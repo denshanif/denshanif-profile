@@ -1,6 +1,7 @@
 ---
-title: "Blog Archives"
+title: "Arsip tulisan"
+description: "Belum ada tulisan yang dipublikasikan."
 layout: "archives"
 # url: "/archives"
-summary: "archives"
+summary: "Daftar tulisan Hanif Al Fathoni."
 ---

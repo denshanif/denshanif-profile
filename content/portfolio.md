@@ -1,93 +1,89 @@
 ---
-title: "My Portfolio"
+title: "Portofolio"
+description: "Proyek website dan aplikasi web Hanif Al Fathoni, termasuk OBE-AI, Kerjaku, GenBI-Point, dan website bisnis."
 author: "Hanif Al Fathoni"
 draft: false
 hidemeta: true
-comments: false
-hideSummary: false
-searchHidden: true
-showToc: true
+showToc: false
 ---
 
-## Freelance Projects
+Berikut beberapa website dan aplikasi yang saya kerjakan. Jika ada yang mirip dengan kebutuhan Anda, kita bisa membahasnya [lewat WhatsApp](https://wa.me/62895342899995?text=Halo%20Hanif%2C%20saya%20ingin%20membahas%20pembuatan%20website.).
 
----
+## Aplikasi terbaru
 
-### Villa di Jogja Landing Page and Admin CMS
+### OBE-AI
 
-<!-- Image -->
-![Villa di Jogja Landing Page and Admin CMS](/villajogja-1.jpeg)
-![Villa di Jogja Landing Page and Admin CMS](/villajogja-2.jpeg)
+Laravel 12 · Filament 4 · Integrasi AI
 
-<!-- Description -->
-Villa di Jogja is a landing page and admin CMS for villa rental in Yogyakarta. This project is built using the CodeIgniter 4 framework and MySQL database.
+OBE-AI membantu dosen memeriksa hubungan antara soal, Capaian Pembelajaran Mata Kuliah (CPMK), dan Capaian Pembelajaran Lulusan (CPL) dalam kurikulum berbasis Outcome-Based Education.
 
-<!-- Tech Stack -->
-**Tech Stack:**
-- CodeIgniter 4
-- MySQL
-- Bootstrap 5
+Saya mengembangkan pengelolaan data akademik dan pemetaan capaian, serta menghubungkannya dengan rekomendasi AI. Dosen dapat membaca bukti yang menyertai rekomendasi, meninjau hasilnya, dan mencatat keputusan sendiri.
 
----
+Aplikasi ini juga mencakup bank soal, paket asesmen, riwayat keputusan, dan laporan akademik. Hasil AI menjadi bahan pemeriksaan; keputusan akademik tetap ditentukan dosen.
+
+### Kerjaku
+
+React · TypeScript · Hono · Cloudflare Workers & D1
+
+Kerjaku adalah aplikasi laporan kerja harian yang dirancang untuk dipakai lewat ponsel. Pengguna bisa mencatat pekerjaan, membuka laporan sebelumnya, lalu menyalin laporan dengan format untuk WhatsApp.
+
+Saya mengembangkan tampilan React dan API Hono, dengan penyimpanan data di Cloudflare D1. Aplikasi berjalan di Cloudflare Workers.
+
+Riwayat laporan tersedia dalam bentuk daftar dan kalender. Ada pengingat, statistik, dan ekspor data. Pengguna bisa masuk dengan email dan kata sandi atau passkey, serta memasang aplikasi ke layar utama melalui fitur PWA.
+
+### GenBI-Point
+
+Laravel 12 · MySQL · Bootstrap 5
+
+Saya membuat GenBI-Point untuk pencatatan poin keaktifan anggota Generasi Baru Indonesia (GenBI), logbook, dan kegiatan organisasi.
+
+Saya mengembangkan aplikasi web ini dengan Laravel dan MySQL. Pengurus dapat mengelola catatan aktivitas anggota beserta poinnya, serta mendata kegiatan organisasi melalui antarmuka Bootstrap.
+
+## Proyek freelance
+
+### Villa di Jogja
+
+CodeIgniter 4 · MySQL · Bootstrap 5
+
+Website untuk memperkenalkan layanan penyewaan villa di Yogyakarta. Saya membuat landing page dan halaman admin agar konten website bisa dikelola melalui CMS.
+
+![Halaman utama website Villa di Jogja](/villajogja-1.jpeg)
+![Halaman admin Villa di Jogja](/villajogja-2.jpeg)
 
 ### Purchase Order System
 
-<!-- Image -->
-![Purchase Order System](/purchase-1.png)
-![Purchase Order System](/purchase-2.png)
-![Purchase Order System](/purchase-3.png)
+Laravel · MySQL · Bootstrap 5
 
-<!-- Description -->
-Purchase Order System is a web-based application for managing purchase orders. This project is built using the Laravel framework and MySQL database.
+Aplikasi web untuk mengelola pesanan pembelian atau purchase order. Saya mengembangkan aplikasi ini menggunakan Laravel dan MySQL.
 
-<!-- Tech Stack -->
-**Tech Stack:**
-- Laravel
-- MySQL
-- Bootstrap 5
+![Tampilan aplikasi purchase order](/purchase-1.png)
+![Halaman pengelolaan purchase order](/purchase-2.png)
+![Detail purchase order](/purchase-3.png)
 
----
+## Proyek pribadi
 
-## Personal Projects
+### Medshop
 
+Laravel 10 · Fortify · Laravel UI · MySQL · Bootstrap 5
 
-### CAVIAR (Crosswalk Assistance App for the Visually Impaired Peoples) API
+Medshop adalah toko online alat kesehatan. Saya membuat katalog produk, keranjang belanja, dan checkout, beserta halaman admin untuk mengelola produk, pesanan, dan pengguna.
 
-<!-- API Architecture -->
-![CAVIAR API Architecture](/caviar-1.png)
+![Katalog produk Medshop](/medshop-1.png)
+![Halaman toko Medshop](/medshop-3.png)
+![Halaman admin Medshop](/medshop-2.png)
 
-<!-- Description -->
-This is API for CAVIAR (Crosswalk Assistance App for the Visually Impaired Peoples) Android App.
+### CAVIAR API
 
-This API feature searching nearby crosswalks based on user's location. This API also feature CRUD for crosswalks data.
+Node.js · Express.js · MySQL · Google Cloud Run · Cloud SQL
 
-This API is built using the Node.js Express framework and MySQL database. Deployed on Google Cloud Cloud Run Serverless and using Google Cloud SQL for the database.
+CAVIAR (Crosswalk Assistance App for the Visually Impaired Peoples) adalah aplikasi Android untuk membantu pengguna mencari lokasi penyeberangan terdekat.
 
-<!-- Github Repository -->
-[CAVIAR API Github Repository](https://github.com/caviar-bangkit/caviar-api)
+Saya mengembangkan API pencarian berdasarkan lokasi pengguna dan pengelolaan data penyeberangan menggunakan Express.js dan MySQL. API dijalankan di Google Cloud Run, dengan database di Cloud SQL.
 
-<!-- Tech Stack -->
-**Tech Stack:**
-- Node.js deployed on Google Cloud Cloud Run Serverless
-- Express.js
-- MySQL on Google Cloud SQL
+![Arsitektur API CAVIAR di Google Cloud](/caviar-1.png)
 
----
+[Kode CAVIAR API di GitHub](https://github.com/caviar-bangkit/caviar-api)
 
-### Medshop (E-Commerce Toko Alat Kesehatan)
+## Bahas proyek Anda
 
-<!-- Image -->
-![Medshop](/medshop-1.png)
-![Medshop](/medshop-3.png)
-![Medshop](/medshop-2.png)
-
-<!-- Description -->
-Medshop is an e-commerce website for selling health equipment. This project is built using the Laravel framework and MySQL database. It's include features such as product catalog, shopping cart, checkout, and also admin CMS for managing products, orders, and users.
-
-<!-- Tech Stack -->
-**Tech Stack:**
-- Laravel 10 with Fortify and Laravel UI
-- MySQL
-- Bootstrap 5
-
----
+Kirim gambaran website yang ingin dibuat, fitur yang dibutuhkan, dan kapan Anda ingin menggunakannya. Kita bisa lanjut membahas pengerjaannya [lewat WhatsApp](https://wa.me/62895342899995?text=Halo%20Hanif%2C%20saya%20ingin%20membahas%20pembuatan%20website.).

@@ -1,0 +1,55 @@
+{{ define "main" }}
+<div class="freelance-home">
+  <section class="simple-hero" aria-labelledby="hero-title">
+    <div>
+      <p class="identity">Hanif Al Fathoni · Web developer</p>
+      <h1 id="hero-title">Jasa pembuatan website<br>& aplikasi web.</h1>
+      <p class="hero-description">Saya membuat website untuk usaha, toko online, dan aplikasi untuk pekerjaan sehari-hari.</p>
+      <div class="actions">
+        <a class="button primary" href="{{ site.Params.contactWhatsApp }}">Bahas proyek lewat WhatsApp</a>
+        <a class="text-link" href="#proyek">Lihat portofolio</a>
+      </div>
+    </div>
+    <img class="portrait" src="{{ "avatar.jpg" | relURL }}" alt="Hanif Al Fathoni" width="230" height="275" fetchpriority="high">
+  </section>
+  <p class="short-bio">Saya Hanif, web developer di Sidoarjo. Saat ini saya bekerja sebagai Account Manager di SEVIMA. Proyek website saya kerjakan secara freelance. <a href="{{ "about/" | relURL }}">Tentang saya</a></p>
+
+  <section id="proyek" class="projects-section" aria-labelledby="projects-title">
+    <div class="section-heading">
+      <h2 id="projects-title">Proyek pilihan</h2>
+      <a class="text-link" href="{{ "portfolio/" | relURL }}">Semua proyek</a>
+    </div>
+    <div class="project-list">
+      {{ range slice
+        (dict "name" "OBE-AI" "category" "Pendidikan" "description" "Aplikasi untuk dosen memeriksa keselarasan soal dan capaian pembelajaran. AI memberi rekomendasi; dosen menentukan hasil akhirnya." "stack" "Laravel · Filament · Integrasi AI" "anchor" "obe-ai")
+        (dict "name" "Kerjaku" "category" "Laporan kerja harian" "description" "Catat pekerjaan harian dan buka kembali laporan sebelumnya. Laporan bisa disalin dengan format untuk WhatsApp." "stack" "React · TypeScript · Cloudflare Workers" "anchor" "kerjaku")
+        (dict "name" "GenBI-Point" "category" "Organisasi" "description" "Aplikasi untuk pengurus GenBI mencatat poin keaktifan anggota, logbook, dan kegiatan organisasi." "stack" "Laravel · MySQL · Bootstrap" "anchor" "genbi-point")
+      }}
+      <article class="project-row">
+        <div class="project-heading">
+          <h3>{{ .name }}</h3>
+          <p class="project-category">{{ .category }}</p>
+        </div>
+        <div class="project-description">
+          <p>{{ .description }}</p>
+          <p class="project-stack">{{ .stack }}</p>
+        </div>
+        <a class="text-link" href="{{ "portfolio/" | relURL }}#{{ .anchor }}" aria-label="Lihat proyek {{ .name }}">Lihat proyek</a>
+      </article>
+      {{ end }}
+    </div>
+  </section>
+
+  <section class="services-inline" id="layanan">
+    <h2>Yang bisa saya bantu</h2>
+    <p>Landing page & website bisnis <span aria-hidden="true">/</span> Toko online <span aria-hidden="true">/</span> Aplikasi web & sistem internal</p>
+  </section>
+  <section id="kontak" class="contact-section">
+    <div>
+      <h2>Ingin membuat website?</h2>
+      <p>Kirim gambaran website yang ingin dibuat. Kita bisa membahas fitur dan jadwalnya lewat WhatsApp.</p>
+    </div>
+    <a class="button primary" href="{{ site.Params.contactWhatsApp }}">Hubungi lewat WhatsApp</a>
+  </section>
+</div>
+{{ end }}

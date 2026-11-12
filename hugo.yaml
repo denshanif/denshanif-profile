@@ -1,5 +1,6 @@
 baseURL: "https://denshanif.my.id"
-languageCode: en-us
+languageCode: id-ID
+defaultContentLanguage: id
 title: Hanif Al Fathoni
 theme: PaperMod
 
@@ -13,11 +14,15 @@ minify:
   minifyOutput: true
 
 params:
+  contactWhatsApp: "https://wa.me/62895342899995?text=Halo%20Hanif%2C%20saya%20ingin%20membahas%20pembuatan%20website."
   title: Hanif Al Fathoni
-  description: "Hanif Al Fathoni Profile Page"
+  description: "Hanif Al Fathoni, web developer freelance di Sidoarjo. Pembuatan website usaha, toko online, dan aplikasi web."
   author: "Hanif Al Fathoni"
   DateFormat: "January 2, 2006"
-  defaultTheme: "auto"
+  defaultTheme: "light"
+  disableThemeToggle: true
+  hideFooter: false
+  disableAnchoredHeadings: true
 
   ShowReadingTime: true
   ShowPostNavLinks: true
@@ -36,24 +41,24 @@ params:
     favicon: "/favicon.ico"
 
   profileMode:
-    enabled: true
+    enabled: false
     title: "Hanif Al Fathoni"
-    subtitle: "Computer Science Student | Web Developer | Backend Developer | Cloud Computing" 
+    subtitle: "Web developer freelance di Sidoarjo"
     imageUrl: "/avatar.jpg"
-    imageTitle: "Profile Image"
+    imageTitle: "Hanif Al Fathoni"
     imageWidth: 120 # custom size
     imageHeight: 120 # custom size
     buttons:
-      - name: About Me
+      - name: Tentang saya
         url: about/
-      - name: Portfolio
+      - name: Portofolio
         url: portfolio/
-      - name: Blog
+      - name: Tulisan
         url: archives
 
   homeInfoParams:
-    Title: "Hi, I'm Hanif Al Fathoni \U0001F44B"
-    Content: Welcome to my personal website
+    Title: "Hanif Al Fathoni"
+    Content: "Web developer freelance di Sidoarjo."
 
   socialIcons:
     - name: "LinkedIn"
@@ -68,15 +73,12 @@ params:
 
 menu:
   main:
-    - name: About Me
-      url: about/
-      weight: 5
-    - name: Portfolio
-      url: portfolio/
-      weight: 5
-    - name: Blog
-      url: archives
-      weight: 10
-    - name: Tags
-      url: tags
-      weight: 15
+    - name: Portofolio
+      url: /portfolio/
+      weight: 20
+    - name: Tentang
+      url: /about/
+      weight: 30
+    - name: Hubungi saya
+      url: /#kontak
+      weight: 40

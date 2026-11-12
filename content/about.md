@@ -1,103 +1,70 @@
 ---
-title: "About Me"
+title: "Tentang saya"
+description: "Hanif Al Fathoni, web developer freelance di Sidoarjo. Berpengalaman dalam pengembangan web, QA, dan implementasi sistem."
 author: "Hanif Al Fathoni"
 draft: false
 hidemeta: true
-comments: false
-hideSummary: false
-searchHidden: true
-showToc: true
+showToc: false
 ---
 
-My name is Hanif Al Fathoni. I am a student at the UPN Veteran Jawa Timur. I am currently studying Informatics or Computer Science. I am interested in the field of web development. I am also interested in the field of cloud computing and machine learning.
+Saya Hanif Al Fathoni, tinggal di Sidoarjo, Jawa Timur. Saya mengerjakan website bisnis, toko online, dan aplikasi web sebagai freelancer.
 
-## Experience
+Saat ini saya bekerja sebagai Account Manager di SEVIMA. Sebelumnya, saya bekerja di pengembangan web dan pengujian software. Pengalaman tersebut membuat saya terbiasa membahas kebutuhan pengguna dan memeriksa apakah fungsi aplikasi sudah berjalan sesuai kebutuhan.
 
----
+Proyek freelance saya kerjakan secara mandiri. Contoh pekerjaan saya bisa dilihat di [halaman portofolio](/portfolio/). Untuk membahas proyek, [hubungi saya lewat WhatsApp](https://wa.me/62895342899995?text=Halo%20Hanif%2C%20saya%20ingin%20membahas%20pembuatan%20website.).
 
-### Backend Developer Intern
+## Pengalaman kerja
 
-[Looyal Indonesia](https://loooyal.id/)
+### Account Manager · PT Sentra Vidya Utama (SEVIMA)
+Desember 2025 sampai sekarang · Surabaya
 
-_Internship_
+Saya mendampingi perguruan tinggi saat menerapkan dan menggunakan sistem SEVIMA. Saya membahas kebutuhan pengguna, berkoordinasi dengan tim teknis untuk menangani kendala, memeriksa data saat implementasi, dan memberikan pelatihan penggunaan sistem.
 
-**July 2023 - October 2023**
+### Software Quality Assurance Tester · ORDO
+April 2024 sampai April 2025 · Surabaya
 
-Revamped Looyal's existing Point of Sales API and Whatsapp Chatbot API, refactoring it into TypeScript.
-- This revamp was taken to enhance the codebase's maintainability and readability, while also leveraging the
-benefits of TypeScript's strong typing system
-- By undertaking this project, I demonstrated my expertise in both back-end development and TypeScript,
-contributing to Looyal's overall technical advancement.
+Saya menyusun dan menjalankan test case serta mencatat bug. Saya juga bekerja bersama developer, desainer, dan project manager untuk memeriksa fungsi software sebelum rilis.
 
-### IT Intern (Internet of Things)
+### Web Developer Intern · PT Digital Solusi Master
+Maret sampai April 2024 · Sidoarjo
 
-[PT Radnet Digital INdonesia](https://radnet-digital.id/)
+Saya mengerjakan pemeliharaan sistem akademik Edumate, memperbaiki bug, dan merapikan kode pada fitur yang sudah ada.
 
-_Internship_
+### Backend Developer Intern · Looyal Indonesia
+Juli sampai Oktober 2023 · Surabaya
 
-**September 2022 - December 2022**
+Saya mengerjakan pembaruan API Point of Sales dan chatbot WhatsApp ke TypeScript agar kode lebih mudah dibaca dan dipelihara.
 
-Designed and deployed Radnet's ESP32-based server room temperature monitoring system.
-- Integrated the hardware with Node-RED IoT framework, establishing seamless communication through MQTT
-and MySQL databases.
-- Achieved real-time data transmission and reception for enhanced server reliability.
+### Information Technology Intern · PT Radnet Digital Indonesia
+September sampai Desember 2022 · Surabaya
 
-## Education
+Saya mengembangkan sistem pemantauan suhu ruang server menggunakan ESP32, Node-RED, MQTT, dan MySQL.
 
----
+## Pendidikan
 
-### Universitas Pembangunan Nasional "Veteran" Jawa Timur
+Informatika, UPN “Veteran” Jawa Timur
 
-Surabaya, Indonesia
+September 2020 sampai Desember 2025
 
-**2020 - Present**
+Cloud Computing Path, Bangkit Academy
 
-_Bachelor of Computer Science, Informatics Major_
+Februari sampai Juli 2023
 
-Current GPA: 3.92/4.00
--  Participated in the Kampus Merdeka program of Bangkit Academy 2023, led by Google, GoTo, and Traveloka, with a focus on the Cloud Computing learning path.
+## Keahlian
 
-## Technical Skills
+Untuk pengembangan web, saya menggunakan PHP, Laravel, CodeIgniter, JavaScript, TypeScript, Node.js, HTML, dan CSS. Saya juga bekerja dengan MySQL, SQL, Google Cloud, dan administrasi server Linux.
 
----
+Pekerjaan saya juga mencakup pengujian software, penelusuran masalah, analisis kebutuhan, implementasi SaaS, dan pelatihan pengguna.
 
-### Experienced
-HTML, CSS, PHP, CodeIgniter, Laravel, JavaScript, Node.js, Cloud Computing, Google
-Cloud Platform (GCP), Internet of Things, Computer Networking, and Linux Server
-Administration
+## Sertifikasi
 
-## Certifications
+- [Associate Cloud Engineer, Google Cloud](https://google.accredible.com/71f4b925-5fba-456e-aab4-ced1e7540e1b), periode November 2023 sampai November 2026. Status sertifikasi tersedia pada tautan tersebut.
+- EF SET English Certificate, skor 72/100 (C2 Proficient).
 
----
+## Kontak
 
-### Associate Cloud Engineer, Google Cloud
+Jika ingin membuat website, kirim gambaran singkat proyeknya lewat WhatsApp. Kita bisa membahas fitur, biaya, dan jadwal pengerjaannya dari sana.
 
-Valid period: Nov 2023 - Nov 2026
+[Hubungi lewat WhatsApp](https://wa.me/62895342899995?text=Halo%20Hanif%2C%20saya%20ingin%20membahas%20pembuatan%20website.)
 
-[Show Certificate](https://google.accredible.com/71f4b925-5fba-456e-aab4-ced1e7540e1b)
-
-### Menjadi Google Cloud Engineer, Dicoding
-
-Valid period: May 2023 - May 2026
-
-[Show Certificate](https://www.dicoding.com/certificates/JMZV99Q33PN9)
-
-### System Administration and IT Infrastructure Services, Coursera
-
-Valid period: Mar 2023 - No Expire
-
-### The Bits and Bytes of Computer Networking, Coursera
-
-Valid period: Feb 2023 - No Expire
-
-### Architecting on AWS, Dicoding
-
-Valid period: Jul 2021 - Jul 2024
-
-[Show Certificate](https://www.dicoding.com/certificates/N9ZOEDL70XG5)
-
-### AWS Cloud Practitioner Essentials, Dicoding
-
-Valid period: May 2021 - May 2024
-
-[Show Certificate](https://www.dicoding.com/certificates/EYX4REWDOXDL)
+[LinkedIn](https://www.linkedin.com/in/hanif-al-fathoni) · [GitHub](https://github.com/denshanif)
